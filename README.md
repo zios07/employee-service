@@ -8,6 +8,6 @@ Spring boot state machine for employees
 
 # Run
 
-1 - cd into the project dir
-2 - mvn package
-3 - docker-compose --build -d
+1 - cd into the project dir </br>
+2 - mvn package </br>
+3 - docker-compose --build -d </br>
