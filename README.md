@@ -10,5 +10,5 @@ Spring boot state machine for employees
 
 1 - cd into the project dir </br>
 2 - mvn package </br>
-3 - docker-compose --build -d </br>
+3 - docker-compose up --build -d </br>
 4 - open your browser and go to: localhost:8080/swagger-ui/index.html
