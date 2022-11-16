@@ -1,0 +1,29 @@
+db:
+  host: localhost
+  port: 3306
+  username: root
+  password: password
+
+spring:
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:mysql://${db.host}:${db.port}/employeesdb
+    username: ${db.username}
+    password: ${db.password}
+    driverClassName: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      platform: mysql
+
+---
+
+db:
+  host: mysql
+spring:
+  config:
+    activate:
+      on-profile: dev
